@@ -9,7 +9,7 @@ const App = () => {
   }
   return (
     <div>
-      <div>Enter your name:</div>
+      <p>Enter your name:</p>
       <input type="text" onChange={addText}/>
       {
          name.length>0 && <p className="pTag">Hello {name}!</p>
